@@ -15,10 +15,10 @@ const store = createStore(
   reducer,
 )
 
-//<BrowserRouter basename={'/app_console'}>
+// <BrowserRouter basename={'/meyda_mfcc'}>
 ReactDOM.render(
   <Provider store={store}>
-    <BrowserRouter basename={'/meyda_mfcc'}>
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </Provider>,

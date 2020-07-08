@@ -13,4 +13,11 @@ npm start
 cd python_server
 python run_keras_server.py
 ```
-You need to install some libralies to run python server.
+You need to install some libraries to run python server.
+
+```
+npm install --global meyda
+pip install python_speech_features
+python run_keras_server.py
+pip install flask_cors
+```
